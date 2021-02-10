@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.conatainer__sign{
+    background-image:url(/images/bg-hero-desktop.svg);
+    background-color:hsl(193, 100%, 96%);
+}
+
+.sign{
+    width: 26%;
+    /* height: 500px; */
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    color: #00008B;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 5%) 4px 4px 8px 10px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    padding: 3%;
+}
+
+.sign__button{
+    width: 10rem;
+    height: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: 1px solid grey;
+    border-radius: 68.5rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    cursor: pointer;
+
+}
+
+.reset__button{
+    width: 10rem;
+    height: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: 1px solid grey;
+    border-radius: 68.5rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+form input{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 68.5rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 1px solid grey;
+    background-color: rgba(201, 201, 201, .5);
+}
