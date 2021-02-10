@@ -2,5 +2,72 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     
+}
+/* Start CSS d'Abdelmounaim */
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "open sans";
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    gap: 30px;
+}
+.main_card{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px -4px rgb(238, 236, 236);
+}
+.main_text{
+    width: 50%;
+    align-self: center;
+}
+.main h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main p{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+}
+.illustration{
+    width: 230px;
+}
+/* Finish CSS d'Abdelmounaim */
+
+@media (max-width: 600px){
+
+    /* Start CSS V.Mobile d'Abdelmounaim */
+    
+    .main_card{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #card2{
+        flex-direction: column;
+    }
+
+    .illustration{
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+    .main_text{
+        width: 70%;
+        text-align: center;
+    }
+
+    /* Finish CSS V.Mobile d'Abdelmounaim */
 }
