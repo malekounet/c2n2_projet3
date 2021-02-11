@@ -13,10 +13,16 @@ body{
 .conatainer__sign{
     background-image:url(/images/bg-hero-desktop.svg);
     background-color:hsl(193, 100%, 96%);
+    width: 100%;
 }
 
-.sign{
-    width: 26%;
+.header__logo{
+    width: 23%;
+    margin: auto;
+}
+
+.signin{
+    width: 50%;
     /* height: 500px; */
     margin: auto;
     background-color: #fff;
@@ -28,7 +34,7 @@ body{
 }
 
 .sign__button{
-    width: 10rem;
+    width: 50%;
     height: 2rem;
     background-color: hsl(322, 100%, 66%);
     color: #fff;
@@ -42,7 +48,7 @@ body{
 }
 
 .reset__button{
-    width: 10rem;
+    width: 50%;
     height: 2rem;
     background-color: hsl(322, 100%, 66%);
     color: #fff;
@@ -56,10 +62,44 @@ body{
 }
 
 form input{
-    width: 10rem;
+    width: 50%;
     height: 2rem;
     border-radius: 68.5rem;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border: 1px solid grey;
     background-color: rgba(201, 201, 201, .5);
+}
+
+@media (max-width:600px){
+    .signin{
+        width: 90%;
+        /* height: 500px; */
+        margin: auto;
+    }
+
+    .contain{
+        width:90%;
+        margin: auto;
+    }
+
+    .header__logo{
+        width: 75%;
+        margin: auto;
+    }
+    .sign__button{
+        width: 70%;
+        
+    
+    }
+    
+    .reset__button{
+        width: 70%;
+        
+    
+    }
+    
+    form input{
+        width: 70%;
+    }
+
 }
